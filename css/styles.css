@@ -19,6 +19,7 @@ h2{
 
 p{
     font-size:14px;
+    max-width: 800px;
 }
 
 
@@ -102,11 +103,14 @@ hr{
    
     margin:0;
 }
+@media (min-width:991px){
+    .hills{
+        height: 600px;
+        width: 800px;
+    }
 
-.hills{
-    height: 600px;
-    width: 800px;
 }
+
 
 
 /*about section*/
@@ -130,26 +134,31 @@ hr{
     
 }
 
-.fswd{
-    float:left;
-  
+@media (min-width:991px){
+
+    .fswd{
+        float:left;
+      
+    }
+    
+    .ml{
+        float: right;
+       
+    }
+    
+    .food{
+        float:left;
+    }
+    .skill-row{
+        height:220px;
+        text-align: left;
+        padding: 0 25% 0 25%;
+        margin:3%;
+    }
+
 }
 
-.ml{
-    float: right;
-   
-}
 
-.food{
-    float:left;
-}
-
-.skill-row{
-    height:220px;
-    text-align: left;
-    padding: 0 25% 0 25%;
-    margin:3%;
-}
 
 /*Contact section*/
 
